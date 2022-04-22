@@ -8,7 +8,7 @@
 
 Car.destroy_all
 
-Car.create!(brand: "Toyota", model: "Auris Touring Sports break", price: "35 000")
-Car.create!(brand: "Nissan", model: "350z", price: "40 000")
-Car.create!(brand: "Nissan", model: "skyline", price: "38 000")
-Car.create!(brand: "Honda", model: "Civic", price: "43 000")
+Car.create!(brand: "Toyota", model: "Auris Touring Sports break", price: "35 000", car_image: "Auris_touring_Sports_break.jpg")
+Car.create!(brand: "Nissan", model: "350z", price: "40 000", car_image: "Nissan_350z.jpg")
+Car.create!(brand: "Nissan", model: "skyline", price: "38 000", car_image: "Nissan_skyline.jpg")
+Car.create!(brand: "Honda", model: "Civic", price: "43 000", car_image: "Honda_civic.jpg")
