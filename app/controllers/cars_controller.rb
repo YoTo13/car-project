@@ -8,4 +8,9 @@ class CarsController < ApplicationController
     @booking = Booking.new
   end
 
+  private
+
+  def car_params
+    params.require(:car).permit(:brand, :model, :photo, :price)
+  end
 end
