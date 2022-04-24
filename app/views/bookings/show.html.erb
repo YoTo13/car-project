@@ -1,0 +1,18 @@
+<h1>Détails de votre réservation</h1>
+
+
+<br>
+<br>
+<div class="container booking">
+  <div class="container">
+    <h1> Réservation de votre <%= @car.brand %> <%= @car.model %></h1>
+  </div>
+  <div class="container">
+    <p>Du <%= @booking.start_date %></p>
+    <p>Au <%= @booking.end_date %></p>
+    <h1>Pour un prix de <%= @booking.total_price %> €</h1>
+    <%= link_to "Continuer", car_bookings_path(@car), class: 'backlink' %>
+  </div>
+</div>
+
+<%# This is a great comment! %>
